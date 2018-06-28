@@ -11,7 +11,7 @@ public class LoterryArray {
             for (int k = 0; k<odds[n].length; k++)
             {
                 int lotteryOdds = 1;
-                for (int i = 0; i<=k;i++)
+                for (int i = 1; i<=k;i++)
                     lotteryOdds = lotteryOdds * (n - i + 1) / i;
                 odds[n][k] = lotteryOdds;
             }
