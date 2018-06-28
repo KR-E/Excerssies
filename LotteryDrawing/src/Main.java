@@ -18,6 +18,7 @@ public class Main {
             numbers[i] = i + 1;
 
         int[] result = new int[k];
+
         for (int i = 0; i < result.length; i++) {
             int r = (int) (Math.random() * n);
 
@@ -29,7 +30,7 @@ public class Main {
 
         Arrays.sort(result);
         System.out.println("postaw na nastepujace liczby. dzieki nim zdobredziesz bogactwo");
-        for(int r : result)
+        for (int r : result)
             System.out.println(r);
     }
 }
