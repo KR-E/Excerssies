@@ -32,5 +32,5 @@ public class Main {
 //        System.out.println("postaw na nastepujace liczby. dzieki nim zdobredziesz bogactwo");
 //        for (int r : result)
 //            System.out.println(r);
-//    }
+
 }
